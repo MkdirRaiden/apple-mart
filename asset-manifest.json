@@ -1,18 +1,29 @@
 {
   "files": {
     "main.css": "/apple-mart/static/css/main.f59e88bd.css",
-    "main.js": "/apple-mart/static/js/main.88591476.js",
+    "main.js": "/apple-mart/static/js/main.9389d494.js",
+    "static/media/cart0.jpg": "/apple-mart/static/media/cart0.e796211690a0696c958b.jpg",
+    "static/media/img6.jpg": "/apple-mart/static/media/img6.f108885816074e58b244.jpg",
+    "static/media/img4.jpg": "/apple-mart/static/media/img4.a21380b99124dd8b9505.jpg",
+    "static/media/About.jpg": "/apple-mart/static/media/About.9c7153aec94ffa68ab8b.jpg",
+    "static/media/iPhone14.jpg": "/apple-mart/static/media/iPhone14.aa43240368832470f1d9.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/contact.png": "/apple-mart/static/media/contact.c73e290838e0fa210ae3.png",
     "static/media/fontawesome-webfont.eot": "/apple-mart/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/iPhone12.jpg": "/apple-mart/static/media/iPhone12.6dd165982aa728d9bd61.jpg",
+    "static/media/apple.png": "/apple-mart/static/media/apple.cb48358ad7a48d415802.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/img5.jpg": "/apple-mart/static/media/img5.4b002560cf2bc27e1ab4.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/img2.jpg": "/apple-mart/static/media/img2.138ad0520accc87e995e.jpg",
+    "static/media/iPhone11.jpg": "/apple-mart/static/media/iPhone11.5c943f3378fd75a759ea.jpg",
     "index.html": "/apple-mart/index.html",
     "main.f59e88bd.css.map": "/apple-mart/static/css/main.f59e88bd.css.map",
-    "main.88591476.js.map": "/apple-mart/static/js/main.88591476.js.map"
+    "main.9389d494.js.map": "/apple-mart/static/js/main.9389d494.js.map"
   },
   "entrypoints": [
     "static/css/main.f59e88bd.css",
-    "static/js/main.88591476.js"
+    "static/js/main.9389d494.js"
   ]
 }
