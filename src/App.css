@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+    overflow-x: hidden;
+}
+
+
+.gradient__bg {
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 0% 0%, rgba(0, 104, 255, 0.56) 0%, rgba(8, 12, 20, 1) 100%);
+
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 0% 0%, rgba(0, 104, 255, 0.56) 0%, rgba(8, 12, 20, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 0% 0%, rgba(0, 104, 255, 0.56) 0%, rgba(8, 12, 20, 1) 100%);
+  
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 0% 0%, rgba(0, 104, 255, 0.56) 0%, rgba(8, 12, 20, 1) 100%);
+  
+      /* global 92%+ browsers support */
+      background:radial-gradient(circle at 0% 0%, rgba(0, 104, 255, 0.56) 0%, rgba(8, 12, 20, 1) 100%);
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* header logo */
+.logo img{
+    width: 40px;
+}
+.logo-text {
+    font-family: var(--font-family);
+}
+
+/* navbar link */
+.nav-link{
+    position: relative;
+    color: rgb(105, 117, 246);
+    font-family: 'Anton', sans-serif;
+    text-align:center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+.header-buttons {
+    
+    text-align: center;
+    margin-bottom: 12px;
+}
+.modal-body {
+    text-align: start;
+}
+
+.nav-link::after {
+    content: '';
+    width: 0;
+    transition: all 0.25s ease;
+    height: 2.5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.active {
+    position: relative;
+}
+.nav-link:hover::after, 
+.nav-link.active::after{
+    width: 36px;  
+}
+
+/* navbar toggler button */
+.navbar-toggler {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 2.5px;
+    width: 100%;
+    background: var(--gradient-text);
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+/* state when the navbar is collapse */
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* home carousel */
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 615px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 680px;
+}
+
+.carousel-indicators button{
+    background-color: #f49e70 !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin-right: 8px !important;
+}
+
+.carousel-caption {
+    font-family: var(--font-family);
+    position: absolute !important;
+    top: 0 !important;
+    
+}
+
+/* product cards */
+.card {
+    transition: all .75s ease !important;
+}
+.card:hover {
+    box-shadow: 4px 4px 5px rgba(133, 163, 246, 0.5);
+    scale: 1.05;
+}
+
+.product img{
+    transition: 0.35s ease-in-out;
+}
+.product img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .section__padding {
+        padding: 4rem;
+    }
+    .section__margin {
+        margin: 4rem;
+    }
+    .carousel-item {
+        width: 100%;
+        height: 555px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 550px;
+    }
+    .navbar-toggler {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        transition: .5s ease-in-out;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+    .carousel-item {
+        width: 100%;
+        height: 455px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 450px;
+    }
+    .navbar-toggler {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        transition: .5s ease-in-out;
+    }
+  }
+
+  button:active {
+    scale: .95;
+  }
+  
+  /* footer css */
+  .home_page__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.home_page__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.home_page__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.home_page__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_page__footer-links_logo img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.home_page__footer-links_logo p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: #fff;
+}
+
+.home_page__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.home_page__footer-links_div h4 {
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    margin-bottom: 0.9rem;
+}
+
+.home_page__footer-links_div p {
+    font-size: 14px;
+    line-height: 15px;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.home_page__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.home_page__footer-copyright p {
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 15px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 550px) {
+   
+
+    .home_page__footer-links div {
+        margin: 1rem 0;
+    }
+
+   
+}

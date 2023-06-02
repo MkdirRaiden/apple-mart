@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+:root {
+    --font-family: 'Rubik Puddles', cursive;
+
+    --gradient-text: linear-gradient(89.97deg, #585656 1.84%, #f56010 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #ffffff -13.86%, #3b1807 99.55%); 
+    --color-bg: #fff;
+    --color-footer : #585656;
+    
+}
