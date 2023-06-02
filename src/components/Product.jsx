@@ -1,5 +1,5 @@
 import React from "react";
-import { DATA } from "../Data";
+import { DATA } from "../Data.js";
 import { NavLink } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Login, Register, CartBtn } from "./buttons";
+import Apple from "../assets/images/apple.png";
 
 const Header = () => {
   const navLinkEls = document.querySelectorAll(".nav-link");
@@ -21,7 +22,7 @@ const Header = () => {
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-3 gradient__text" to="/">
             <span className="logo mx-2">
-              <img src="/assets/images/apple.png" alt="image" />
+              <img src={Apple} alt="image" />
             </span>
             <span className="logo-text">MART</span>
           </NavLink>

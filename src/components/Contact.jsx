@@ -1,4 +1,5 @@
 import React from "react";
+import CntImg from "../assets/images/contact.png";
 
 const Contact = () => {
   return (
@@ -14,12 +15,7 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-md-5 d-flex justify-content-center">
-            <img
-              src="/assets/images/contact.png"
-              alt="image"
-              width={375}
-              height={375}
-            />
+            <img src={CntImg} alt="image" width={375} height={375} />
           </div>
           <div className="col-md-6">
             <form>

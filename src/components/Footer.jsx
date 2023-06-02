@@ -2,6 +2,7 @@ import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Apple from "../assets/images/apple.png";
 
 const Footer = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Footer = () => {
       >
         <div className="home_page__footer-links">
           <div className="home_page__footer-links_logo">
-            <img src="/assets/images/apple.png" alt="home_page_logo" />
+            <img src={Apple} alt="home_page_logo" />
             <p>
               Muktadir Raiden..., <br /> All Rights Reserved
             </p>
