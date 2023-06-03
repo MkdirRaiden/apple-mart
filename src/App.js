@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Routes>
+      <Routes basename="/apple-mart">
         <Route exact path="/" element={<Home />} />
         <Route path="/products" element={<Product />} />
         <Route path="/products/:id" element={<ProductDetail />} />
