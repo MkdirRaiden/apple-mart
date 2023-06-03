@@ -10,7 +10,6 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.0",
     "font-awesome": "^4.7.0",
-    
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
@@ -21,7 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -46,7 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
