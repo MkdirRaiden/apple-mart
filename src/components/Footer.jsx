@@ -1,26 +1,18 @@
 import React from "react";
-import Aos from "aos";
+
 import "aos/dist/aos.css";
-import { useEffect } from "react";
-import Apple from "../assets/images/apple.png";
 
 const Footer = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 500,
-      offset: 50,
-    });
-  }, []);
   return (
     <>
       <div
         className="home_page__footer section__padding"
-        data-aos="flip-down"
+        data-aos="zoom-in"
         data-aos-easing="linear"
       >
         <div className="home_page__footer-links">
           <div className="home_page__footer-links_logo">
-            <img src={Apple} alt="home_page_logo" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/apple.png"} />
             <p>
               Muktadir Raiden..., <br /> All Rights Reserved
             </p>

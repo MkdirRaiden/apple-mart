@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { DATA } from "../Data";
+import DATA from "../Data";
 import { useDispatch } from "react-redux";
 import { addItem, delItem } from "../redux/action/index";
 
@@ -9,6 +9,7 @@ const ProductDetail = () => {
   const proId = useParams();
   const proDetail = DATA.filter((x) => x.id == proId.id);
   const product = proDetail[0];
+  console.log(product);
 
   const dispatch = useDispatch();
   const handleCart = (product) => {
@@ -21,11 +22,11 @@ const ProductDetail = () => {
     }
   };
   return (
-    <div>
+    <>
       <div className="container my-5 py-3">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center mx-auto product mb-5">
-            <img src={product.img} alt="image" height={405} />
+            <img src={product.Img} alt={product.title} height={405} />
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <h1 className="display-6 fw-bold gradient__text">
@@ -43,7 +44,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

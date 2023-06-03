@@ -2,7 +2,6 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { delItem } from "../redux/action/index";
 import { NavLink } from "react-router-dom";
-import CrtImg from "../assets/images/cart0.jpg";
 
 const Cart = () => {
   const state = useSelector((state) => state.addItems);
@@ -27,8 +26,8 @@ const Cart = () => {
           <div className="row justify-content-center">
             <div className="col-md-4">
               <img
-                src={cartItem.img}
-                alt="image"
+                src={cartItem.Img}
+                alt="cart.png"
                 height={250}
                 width={200}
                 style={{ marginBottom: "40px" }}
@@ -51,7 +50,11 @@ const Cart = () => {
         <div className="container  section__padding">
           <div className="row">
             <div className="col-md-12 d-flex justify-content-center py-6">
-              <img src={CrtImg} alt="image" height={360} width={360} />
+              <img
+                src={process.env.PUBLIC_URL + "/assets/images/cart0.jpg"}
+                width={360}
+                height={360}
+              />
             </div>
             <div className="col-md-12 d-flex justify-content-center">
               <h1
