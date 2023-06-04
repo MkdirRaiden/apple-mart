@@ -183,7 +183,7 @@ body {
 /* product cards */
 
 .card:hover {
-    box-shadow: 6px 6px 12px rgba(133, 163, 246, 0.5);
+    box-shadow: -6px -6px 12px rgba(133, 163, 246, 0.5);
     
 }
 
@@ -210,12 +210,7 @@ body {
         width: 100%;
         height: 550px;
     }
-    .navbar-toggler {
-        width: 30px;
-        height: 30px;
-        position: relative;
-        transition: .5s ease-in-out;
-    }
+   
   }
   @media screen and (max-width: 550px) {
     .section__padding {
@@ -232,12 +227,7 @@ body {
         width: 100%;
         height: 450px;
     }
-    .navbar-toggler {
-        width: 25px;
-        height: 25px;
-        position: relative;
-        transition: .5s ease-in-out;
-    }
+    
   }
 
   button:active {

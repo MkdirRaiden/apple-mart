@@ -27,7 +27,7 @@ const Cart = () => {
             <div className="col-md-4">
               <img
                 src={cartItem.Img}
-                alt="cart.png"
+                alt=""
                 height={250}
                 width={200}
                 style={{ marginBottom: "40px" }}

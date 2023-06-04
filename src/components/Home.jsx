@@ -10,11 +10,7 @@ const Home = () => {
         className="carousel slide "
         data-bs-ride="true"
       >
-        <div
-          className="carousel-indicators"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -65,7 +61,7 @@ const Home = () => {
             <img
               src={process.env.PUBLIC_URL + "/assets/images/home/img7.jpg"}
               className="d-block w-100"
-              alt="png"
+              alt=""
             />
             <div
               className="carousel-caption  d-md-block"

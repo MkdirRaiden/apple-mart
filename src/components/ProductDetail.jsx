@@ -26,7 +26,7 @@ const ProductDetail = () => {
       <div className="container my-5 py-3">
         <div className="row">
           <div className="col-md-6 d-flex justify-content-center mx-auto product mb-5">
-            <img src={product.Img} alt={product.title} height={405} />
+            <img src={product.Img} alt="" height={405} />
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
             <h1 className="display-6 fw-bold gradient__text">

@@ -14,18 +14,19 @@ const Product = () => {
         <img
           src={item.Img}
           className="card-img-top d-flex justify-content-center"
-          alt={item.title}
+          alt=""
         />
         <div className="card-body text-center">
           <h5 className="card-title" data-aos="fade-right">
             {item.title.slice(0, 26)}...
           </h5>
-          <p className="card-text" data-aos="fade-left">
+          <p className="card-text" data-aos="fade-in">
             ${item.price}
           </p>
           <NavLink
             to={`/products/${item.id}`}
             className="btn btn-outline-primary"
+            data-aos="fade-left"
           >
             Buy now
           </NavLink>

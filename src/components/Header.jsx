@@ -19,11 +19,16 @@ const Header = () => {
         style={{ boxShadow: "3px 3px 15px rgba(0, 0, 0, 0.5)" }}
       >
         <div className="container">
-          <NavLink className="navbar-brand fw-bold fs-3 gradient__text" to="/">
+          <NavLink
+            className="navbar-brand fw-bold fs-3 gradient__text"
+            to="/apple-mart"
+          >
             <span className="logo mx-2">
               <img
                 src={process.env.PUBLIC_URL + "/assets/images/apple.png"}
-                alt="apple.png"
+                alt=""
+                data-aos="flip-left"
+                data-aos-duration="1000"
               />
             </span>
             <span className="logo-text">MART</span>
@@ -44,7 +49,11 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/">
+                <NavLink
+                  className="nav-link"
+                  aria-current="page"
+                  to="/apple-mart"
+                >
                   Home
                 </NavLink>
               </li>
