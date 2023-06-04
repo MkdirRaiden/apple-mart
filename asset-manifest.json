@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/apple-mart/static/css/main.dd24eb9a.css",
-    "main.js": "/apple-mart/static/js/main.0b361dfd.js",
+    "main.css": "/apple-mart/static/css/main.e8b64056.css",
+    "main.js": "/apple-mart/static/js/main.c6377b4b.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/apple-mart/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/apple-mart/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/apple-mart/index.html",
-    "main.dd24eb9a.css.map": "/apple-mart/static/css/main.dd24eb9a.css.map",
-    "main.0b361dfd.js.map": "/apple-mart/static/js/main.0b361dfd.js.map"
+    "main.e8b64056.css.map": "/apple-mart/static/css/main.e8b64056.css.map",
+    "main.c6377b4b.js.map": "/apple-mart/static/js/main.c6377b4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd24eb9a.css",
-    "static/js/main.0b361dfd.js"
+    "static/css/main.e8b64056.css",
+    "static/js/main.c6377b4b.js"
   ]
 }
