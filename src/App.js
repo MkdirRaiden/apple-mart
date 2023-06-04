@@ -1,6 +1,7 @@
 import { About, Contact, Header, Home, Product, ProductDetail, Cart, Checkout } from "./components"
 import { Routes, Route } from "react-router-dom"
 import Aos from "aos";
+import 'animate.css';
 import { useEffect } from "react";
 
 

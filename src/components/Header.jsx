@@ -27,11 +27,10 @@ const Header = () => {
               <img
                 src={process.env.PUBLIC_URL + "/assets/images/apple.png"}
                 alt=""
-                data-aos="flip-left"
-                data-aos-duration="1000"
+                class="animate__animated animate__bounceInDown animate__delay-1s"
               />
             </span>
-            <span className="logo-text">MART</span>
+            <span className="logo-text ">MART</span>
           </NavLink>
           <button
             className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"

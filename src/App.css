@@ -45,6 +45,10 @@ body {
 /* header logo */
 .logo img{
     width: 40px;
+    transition: all .25s linear;
+}
+.logo img:hover {
+    scale: 1.25;
 }
 .logo-text {
     font-family: var(--font-family);
